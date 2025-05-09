@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: azure;
+    padding-top: 100px;
+}
+
+header {
+    width: 100%;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+header img {
+    height:  66px;
+    margin-right: 16px;
+}
+
+header h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 960px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+form{ 
+    display: flex;
+    max-width: 640px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 56px;
+}
+
+form input {
+    font-size: 24px;
+    background-color: wheat;
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 6px;
+}
+
+form button {
+    background-color: aqua;
+    color: blue;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 6px;
+}
+
+table th {
+    line-height: 40px;
+    border-bottom: 2px; solid: black;
+    padding: 16px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+table td {
+    padding: 16px 0;
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 1px solid grey;
+}
+
+table td img {
+    height: 30px;
+}
+
+.resultado {
+    padding: 8px;
+    font-weight: bold;
+    color:blue;
+    background-color: aquamarine;
+    border-radius: 3px;
+}
+
+.aprovado {
+    background-color: chartreuse;
+}
+
+.reprovado {
+    background-color: red;
+}
+
+.emoji-status {
+    font-size: 32px; /* Ajuste o tamanho conforme necessário */
+    display: inline-block;
+}
+
+table {
+    width: 100%; /* Garante que a tabela ocupe todo o espaço disponível */
+    border-collapse: collapse; /* Remove espaçamentos extras entre as células */
+    border-spacing: 0px;
+}
+
+table th, table td {
+    text-align: center; /* Centraliza o conteúdo */
+    vertical-align: middle; /* Garante alinhamento uniforme das células */
+    padding: 16px; /* Mantém um espaçamento adequado */
+}
+
+.emoji-status {
+    font-size: 30px; /* Ajuste o tamanho conforme necessário */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px; /* Mantém uma altura uniforme */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table td {
+    vertical-align: middle;
+}
+
